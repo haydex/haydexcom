@@ -1,0 +1,437 @@
+/*
+
+
+
+    " The people who are crazy enough to think they can change the world, are the ones who do. "
+	- Apple's Think Different Commercial 1997
+	
+	https://www.youtube.com/watch?v=Rzu6zeLSWq8
+	https://www.youtube.com/watch?v=2B-XwPjn9YY
+	https://www.youtube.com/watch?v=QOlTGA3RE8I
+	
+	Copyright © 1992-2020 HAYDEX Inc. All Rights Reserved.
+	
+	
+
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
+
+
+body
+{
+	background-color: white;
+	margin: 0px;
+	text-align: center;
+	color: #646464;
+	font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.2;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a, img {
+	color: inherit;
+    border:none;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.colorLink
+{
+	color: blue;
+}
+
+.regularOpenSans
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.referencesTitle
+{
+	margin: 0px auto;
+	width: 800px;
+	font-size: 24px;
+	overflow: hidden;
+}
+
+.referencesImage
+{
+	width: 980px;
+	margin: 0px auto;
+}
+
+.smallFont
+{
+	font-size: 18px;
+}
+
+#head
+{
+	height: 260px;
+	background-color: #303030;
+	color: white;
+}
+
+#head #brand
+{
+	padding-top: 17px;
+	width: 573px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+#head #brand #logo
+{
+	background-image: url(../images/haydexlogo.png?v=1);
+	width: 136px;
+	height: 159px;
+	display: inline-block;
+	float: left;
+}
+
+#head #brand #label
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 96px;
+	display: inline-block;
+	line-height: 2;
+    margin-left: 30px;
+	float: left;
+}
+
+#head #navigator
+{
+	
+}
+
+#head #navigator div.mainLink
+{
+	font-size: 23px;
+	margin-right: 50px;
+	display: inline-block;
+}
+
+#head #navigator #theAstronaut
+{
+	margin-right: 0px;
+}
+
+#theAstronautSection
+{
+	margin-top: 100px;
+}
+
+#theAstronautSection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#theAstronautSection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#theAstronautSection #figure
+{
+	width: 980px;
+	height: 380px;
+	margin: 0px auto;
+	background-image: url(../images/theastronaut.jpg?v=1);
+}
+
+#theAstronautSection #brief2
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+#title15
+{
+	overflow: hidden;	
+}
+
+#studySection
+{
+	margin-top: 100px;
+}
+
+#studySection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#studySection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#studySection #figure
+{
+	width: 980px;
+	height: 523px;
+	margin: 20px auto;
+	background-image: url(../images/study.jpg?v=1);
+}
+
+#studySection #brief2
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#workSection
+{
+	margin-top: 100px;
+}
+
+#workSection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#workSection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#technologiesSection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#technologiesSection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#workSection #figure
+{
+	width: 980px;
+	height: 649px;
+	margin: 20px auto;
+	background-image: url(../images/work.jpg?v=1);
+}
+
+#workSection #brief2
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#contactSection
+{
+	margin-top: 100px;
+}
+
+#contactSection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#contactSection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#contactSection #figure
+{
+	width: 980px;
+	height: 511px;
+	margin: 0px auto;
+	background-image: url(../images/contact.jpg?v=1);
+}
+
+#contactSection #brief2
+{
+	width: 800px;
+	font-size: 48px;
+	margin: 0px auto;
+}
+
+#referencesSection
+{
+	margin-top: 100px;
+}
+
+#referencesSection #title
+{
+	font-size: 48px;
+	margin-bottom: 40px;
+	line-height: 1;
+}
+
+#referencesSection #brief
+{
+	width: 800px;
+	font-size: 24px;
+	margin: 0px auto;
+}
+
+#referencesSection #image1
+{
+	height: 506px;
+	background-image: url(../images/interview.jpg?v=1);
+}
+
+#referencesSection #image2
+{
+	height: 1441px;
+	background-image: url(../images/alsharqiyafrontpage.jpg?v=1);
+}
+
+#referencesSection #image3
+{
+	height: 1224px;
+	background-image: url(../images/dahirataljumuapage.jpg?v=1);
+}
+
+#referencesSection #image4
+{
+	height: 1236px;
+	background-image: url(../images/flashsportpage.jpg?v=1);
+}
+
+#referencesSection #image5
+{
+	height: 1225px;
+	background-image: url(../images/kahramanapage.jpg?v=1);
+}
+
+#referencesSection #image6
+{
+	height: 1150px;
+	background-image: url(../images/murasiloonpage.jpg?v=1);
+}
+
+#referencesSection #image7
+{
+	height: 1114px;
+	background-image: url(../images/attagpage.jpg?v=1);
+}
+
+#referencesSection #image8
+{
+	height: 1173px;
+	background-image: url(../images/zaraqwaraq2.jpg?v=1);
+}
+
+#referencesSection #image9
+{
+	height: 1133px;
+	background-image: url(../images/khairatramadanpage.jpg?v=1);
+}
+
+#referencesSection #image10
+{
+	height: 1239px;
+	background-image: url(../images/alburjalali.jpg?v=1);
+}
+
+#referencesSection #image11
+{
+	height: 1227px;
+	background-image: url(../images/zaraqwaraq1.jpg?v=1);
+}
+
+#referencesSection #image12
+{
+	height: 1240px;
+	background-image: url(../images/futoorkumalaina.jpg?v=1);
+}
+
+#referencesSection #image13
+{
+	height: 981px;
+	background-image: url(../images/alsharqiyanewspage.jpg?v=1);
+}
+
+#referencesSection #image14
+{
+	height: 1626px;
+	background-image: url(../images/alsharqiyaprograms.jpg?v=1);
+}
+
+#referencesSection #image15
+{
+	height: 745px;
+	background-image: url(../images/computerscience.jpg?v=1);
+}
+
+#referencesSection #image16
+{
+	height: 999px;
+	background-image: url(../images/merrychristmas.png?v=1);
+}
+
+#referencesSection #image17
+{
+	height: 534px;
+	background-image: url(../images/lifelogo.png?v=1);
+}
+
+#referencesSection #image18
+{
+	height: 433px;
+	background-image: url(../images/wiyanalogo.png?v=1);
+}
+
+#referencesSection #image19
+{
+	height: 668px;
+	background-image: url(../images/iftahyasimsimlogo.png?v=1);
+}
+
+#referencesSection #image20
+{
+	height: 550px;
+	width: 980px;
+	background-size: contain;
+	background-image: url(../images/haydography.jpg?v=1);
+}
+
+#referencesSection #image21
+{
+	height: 735px;
+	background-image: url(../images/myworld.jpg?v=1);
+}
+
+#footer #motto
+{
+	font-size: 48px;
+}
+
+#footer #copyright
+{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
