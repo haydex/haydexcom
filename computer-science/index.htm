@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DCS : Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #355A8C;
+}
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FFFFFF;
+}
+a:link {
+	color: #FF9900;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFCC00;
+	text-decoration: none;
+}
+.style11 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style13 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #FFFFFF; }
+.style15 {font-size: x-small}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<style type="text/css">
+<!--
+p.MsoNormal {
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	white-space: pre;
+}
+.????? {
+	text-align: center;
+}
+textarea {
+	text-align: center;
+}
+.textarea {
+	text-align: center;
+}
+.Text1 {
+	font-family: Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+	line-height: 1px;
+}
+.style18 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.style21 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+	font-weight: bolder;
+	background-color: #A4D9FB;
+	font-style: normal;
+}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('images/g_08.gif','images/g_09.gif','images/g_10.gif','images/g_11.gif','images/g_12.gif')">
+<div id="Layer1" style="position:absolute; left:10px; top:10px; width:697px; height:131px; z-index:1"><img src="images/g_05.gif" width="697" height="131" /></div>
+<div id="Layer2" style="position:absolute; left:10px; top:141px; width:697px; height:23px; z-index:2">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><a href="index.htm" target="_top" onclick="MM_nbGroup('down','group1','s1','',1)" onmouseover="MM_nbGroup('over','s1','','',1)" onmouseout="MM_nbGroup('out')"><img src="images/o_07.gif" alt="Home" name="s1" width="92" height="23" border="0" id="s1" onload="" /></a></td>
+      <td><a href="admissions1.htm" target="_top" onclick="MM_nbGroup('down','group1','s2','',1)" onmouseover="MM_nbGroup('over','s2','images/g_08.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="images/u_08.gif" alt="Admissions" name="s2" width="115" height="23" border="0" id="s2" onload="" /></a></td>
+      <td><a href="people1.htm" target="_top" onclick="MM_nbGroup('down','group1','s3','',1)" onmouseover="MM_nbGroup('over','s3','images/g_09.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="images/u_09.gif" alt="People" name="s3" width="85" height="23" border="0" id="s3" onload="" /></a></td>
+      <td><a href="academics1.htm" target="_top" onclick="MM_nbGroup('down','group1','s4','',1)" onmouseover="MM_nbGroup('over','s4','images/g_10.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="images/u_10.gif" alt="Academics" name="s4" width="112" height="23" border="0" id="s4" onload="" /></a></td>
+      <td><a href="studentslife.htm" target="_top" onclick="MM_nbGroup('down','group1','s5','',1)" onmouseover="MM_nbGroup('over','s5','images/g_11.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="images/u_11.gif" alt="StudentsLife" name="s5" width="127" height="23" border="0" id="s5" onload="" /></a></td>
+      <td><a href="researchareas.htm" target="_top" onclick="MM_nbGroup('down','group1','s6','',1)" onmouseover="MM_nbGroup('over','s6','images/g_12.gif','',1)" onmouseout="MM_nbGroup('out')"><img src="images/u_12.gif" alt="ResearchAreas" name="s6" width="166" height="23" border="0" id="s6" onload="" /></a></td>
+    </tr>
+  </table>
+</div>
+<div id="Layer3" style="position:absolute; left:10px; top:162px; width:697px; height:197px; z-index:3"><img src="images/g_13.gif" width="697" height="197" /></div>
+<div id="Layer4" style="position:absolute; left:10px; top:381px; width:150px; height:27px; z-index:4"><a href="index.htm"><img src="images/g_15.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer5" style="position:absolute; left:10px; top:410px; width:150px; height:27; z-index:5"><a href="admissions1.htm"><img src="images/g_22.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer6" style="position:absolute; left:10px; top:488px; width:150; height:27; z-index:6"><a href="people1.htm"><img src="images/g_24.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer7" style="position:absolute; left:10px; top:584px; width:150px; height:27; z-index:7"><a href="academics1.htm"><img src="images/g_28.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer8" style="position:absolute; left:10px; top:681px; width:150; height:27; z-index:8"><a href="studentslife.htm"><img src="images/g_31.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer9" style="position:absolute; left:10px; top:779px; width:150; height:27; z-index:9"><a href="researchareas.htm"><img src="images/g_33.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer11" style="position:absolute; left:10px; top:879px; width:150px; height:27; z-index:11"><a href="freeresources.htm"><img src="images/g_39.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer12" style="position:absolute; left:10px; top:907px; width:150px; height:27px; z-index:12"><a href="usefullinks.htm"><img src="images/g_42.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer13" style="position:absolute; left:10px; top:935px; width:150px; height:27px; z-index:13"><a href="miscellaneous.htm"><img src="images/g_44.gif" width="150" height="27" border="0" /></a></div>
+<div id="Layer14" style="position:absolute; left:10px; top:1005px; width:150px; height:120px; z-index:14">
+  <div align="center">
+    <p><strong><span class="style13">Computer Science Department</span></strong></p>
+    <p class="style15"><span class="style11">Al-Nahrain university, Iraq-Baghdad, Al-Jadiriyah</span></p>
+    <p class="style13">Phone No. : 7783320</p>
+    <p class="style13"><a href="mailto:dep_of_computerscience@yahoo.com">E-mail of the department</a> </p>
+  </div>
+</div>
+<div id="Layer15" style="position:absolute; left:10px; top:443px; width:150px; height:45px; z-index:15">
+  <div align="left">
+    <ul>
+      <li class="style5"><strong><a href="admissions1.htm">Graduate</a></strong></li>
+      <li class="style5"><strong><a href="admissions2.htm">UnderGraduate</a></strong></li>
+    </ul>
+  </div>
+</div>
+<div id="Layer16" style="position:absolute; left:10px; top:525px; width:150px; height:58px; z-index:16" class="style5">
+  <ul>
+    <li><strong><a href="people1.htm">Faculty</a></strong></li>
+    <li><strong><a href="people2.htm">Staff</a></strong></li>
+    <li><strong><a href="people3.htm">Students</a></strong></li>
+  </ul>
+</div>
+<div id="Layer17" style="position:absolute; left:10px; top:620px; width:150px; height:60px; z-index:17" class="style5">
+  <ul>
+    <li><strong><a href="academics1.htm">Courses</a></strong></li>
+    <li><strong><a href="academics2.htm">Projects</a></strong></li>
+    <li><strong><a href="academics3.htm">Schedules</a></strong></li>
+  </ul>
+</div>
+<div id="Layer18" style="position:absolute; left:10px; top:718px; width:150px; height:60px; z-index:18" class="style5">
+  <ul>
+    <li><strong><a href="studentslife.htm">Activities</a></strong></li>
+    <li><strong><a href="studentslife1.htm">Unions</a></strong></li>
+    <li><strong><a href="studentslife2.htm">Parties</a></strong></li>
+  </ul>
+</div>
+<div id="Layer19" style="position:absolute; left:10px; top:815px; width:150px; height:63px; z-index:19" class="style5">
+  <ul>
+    <li><strong><a href="researchareas.htm">Seminars</a></strong></li>
+    <li><strong><a href="researchareas1.htm">Labratories</a></strong></li>
+    <li><strong><a href="researchareas2.htm">MSC &amp; PHD</a></strong></li>
+  </ul>	
+</div>
+<div id="Layer20" style="position:absolute; left:162px; top:384px; width:543px; height:804px; z-index:20; background-color: #FFFFFF; layer-background-color: #FFFFFF; border: 1px none #000000; overflow: auto;">
+  <div align="center">
+    <p><img src="images/g_18.gif" width="490" height="76" /></p>
+    <blockquote>
+      <p align="justify" class="style18">Republic of Iraq<br />
+        Al-Nahrain University<br />
+      The department of the scientific affairs and the cultural relation<img src="images/sign1.gif" width="78" height="68" align="right" />s</p>
+      <p align="justify" class="style18">Ref. : 6/2134<br />
+        Date : 29/05/2005</p>
+      <p align="justify" class="style18">&nbsp;</p>
+      <p align="justify" class="style21">To / All university colleges<br />
+        Subject / The sixth conference of the education college</p>
+      <p align="justify" class="style18">Al Salam Alaykoom,<br />
+        We attached a copy of the conference folder that will be held in the university of Al-Yarmook in Jordan 22-24/11/2005.</p>
+      <p align="justify" class="style18">With regards.</p>
+      <p align="justify"><span class="style18">Dr.Adnan Abd Al-Wahab Al-Kalamchy<br />
+        President of the department of the scientific affairs and the cultural relations.<br />
+      29/05/2005</span></p>
+      <p align="justify">&nbsp;</p>
+      <p align="center"><img src="images/untitled.gif" width="136" height="158" /> </p>
+    </blockquote>
+    <p><span class="style18"><img src="images/News115.gif" width="342" height="132" border="1" /></span></p>
+    <blockquote>
+      <p align="justify" class="style18">Al-Yarmook University<br />
+      College of Education</p>
+      <p align="justify" class="style21">The sixth conference of the education college</p>
+      <p align="justify" class="style21">Educational and Psychological Sciences &quot;Renewals and Future Applications&quot;</p>
+      <p align="justify" class="style21">22-24 /11/2005<br />
+        Arbid - Jordan</p>
+      <p align="justify" class="style18"><strong>A preface</strong></p>
+      <p align="justify" class="style18">The increasing progress in the age the globalization and the cognitive explosion in the field of the information technology and the criteria culture imposes terrific challenges in the field of the educational and psychological sciences in all of it's different sides. Therefore it was a duty on the supervisors of this field in Jordan and the Arabian world to repeat their view about it, and to intensify their efforts and direct them for the renewals of future applications in the educational and psychological field of science, with what agrees with the age spirit and its developments, and handles its latest developments and challenges.</p>
+      <p align="justify" class="style18"><strong>Targets of the conference :</strong><br />
+        1- Following-up the international directions in the educational and psychological field of science with the analytic study.<br />
+        2- Defining the development priorities and the renewal in the field of the educational and psychological sciences.<br />
+        3- Arab and international experience exchange regarding the educational and psychological renewals and their applications.<br />
+        4- Showing the renewals and the future applications in the field of the educational and psychological sciences, and the clarification of their effect in the operation of the complete development.</p>
+      <p align="justify" class="style18"><strong>Axes of the conference :</strong><br />
+      First : The curricula and the teaching ways, renewals and applications<br />
+      1- The computerization of the curricula.<br />
+      2- The education models.<br />
+      3- Technology of teaching.<br />
+      4- The preparation of the teachers and their qualification.<br />
+      5- The curricula and the knowledge economy.<br />
+      Second : Psychological science : renewals and applications<br />
+      1- Psychological science and the integrated social upbringing of the children.<br />
+      2- Psychological science and the revolution of knowledge, technology and media.<br />
+      3- Psychological science and the human development.<br />
+      4- Psychological science and the interior and exterior political situations.<br />
+      Third : The psychological guidance and the special upbringing : renewals and applications<br />
+      1- The in danger children and their care.<br />
+      2- The cooperation between the psychological guide and the psychological doctor.<br />
+      3- The preparation of the psychological guide and the reformation of its performance.<br />
+      4- Private classes and their care.<br />
+      Forth : The measurement and reformation : renewals and applications<br />
+      1- Tools of measurement and reformation.<br />
+      2- Reformation of the educational programs and their results.<br />
+      3- The criteria of the educational approval.<br />
+      4- The Authentic Evaluation.<br />
+      Fifth : The management of the education and it's origins<br />
+      1- Management and technology.<br />
+      2- Management of the complete quality.<br />
+      3- Economics of the education.<br />
+      4- Educational thinking and globalization.<br />
+      5- Directions and contemporary models in the educational management.</p>
+      <p align="justify" class="style18"><strong>Participation conditions :</strong><br />
+        1- An abstract of the research project or an abstract of the project it self must be sent including the title and name of the research, number of words must be in the range (200-250) word, the last date for the delivery of the abstracts will be on the first of June 2005, and the researcher will be told by the acceptance of his study in principle within a month from the receipt of the abstract.<br />
+        2- Three copies of the complete printed research must be sent, and the last date of delivery will be on the fifth of September 2005, and a copy of the research on a computer CD must be attached with, after that the researcher will be told of the decision of the judgment regarding the acceptance of its study for the participation in the conference.<br />
+        3- The participant that is outside Jordan must pay (200$) to Al-Qahirah Amman &ndash; Al Yarmook University &ndash; account no. (01/10060064501), regarding that participation may be without submitting a research, and its fees cover the residence, meals and the internal transportations.<br />
+        4- The participant from inside Jordan must pay (20JD) to Al-Qahirah Amman &ndash; Al Yarmook University &ndash; account no. (01/10060064501).<br />
+        5- The participant researches will be published after making modifications on them according to the conference sessions discussions.</p>
+      <p align="justify" class="style18"><strong>The research specifications :</strong><br />
+        The research will be accepted only if it agrees with the following conditions:<br />
+        1- Its topic handles one of the conference axes with respect to the experiment, and its future application.<br />
+        2- It must be original and achieving the conditions of the scientific methodology (APA), and is not published or offered to a magazine or another conference.</p>
+      <p align="justify" class="style18"><strong>Registration forum :</strong><br />
+      Name :<br />
+      Work address :<br />
+      Mail address :<br />
+      Telephone :<br />
+      Fax :<br />
+      E-mail :<br />
+      Type of participation :<br />
+      Research title :</p>
+      <p align="justify" class="style18"><strong>The correspondents address :</strong><br />
+        The preparatory committee president for the conference Prof. Dr. Yossif Sawalma</p>
+      <p align="justify" class="style18">Addresses :<br />
+  Joradan &ndash; Arbid / Al-Yarmook University<br />
+    College of education<br />
+    E-mail : <a href="mailto:rubab@yu.edu.jo">rubab@yu.edu.jo</a><br />
+    Telephone : (3730) (7211111)<br />
+    Fax : (962007211199)</p>
+      <p align="justify"><span class="style18"><strong>The preparatory committee for the conference :</strong><br />
+      Prof. Dr. Adnan Al-Atoom President of the conference<br />
+      Prof. Dr. Yossif Sawalma President of the preparatory committee<br />
+      Dr. Riba Batainah The preparatory committee reporter<br />
+      Prof. Dr. Gazi Rawaqa A member<br />
+      Dr. Mohammad Sawalha A member<br />
+      Dr. Kalifah Abu Ashoor A member<br />
+      Dr. Kaldoon Abu Al-Hayja' A member<br />
+      Dr. Nawaf Shatnawy A member<br />
+      Dr. Firas Al-Hamoory A member<br />
+      Mr. Mohammad Athamnah A member / The public relations</span><span class="style18"><br />
+      </span> </p>
+    </blockquote>
+    <p><img src="images/g_25.gif" width="340" height="27" /></p>
+    <p>&nbsp;</p>
+    <blockquote>
+      <p align="justify" class="style18">Republic of Iraq<img src="images/sign1.gif" width="78" height="68" align="right" /><br />
+        Al-Nahrain University<br />
+      (President office)</p>
+      <p align="justify" class="style18">Ref. : GS/126<br />
+        Date : 17/02/2005</p>
+      <p align="justify" class="style21">University Order<br />
+        Subject / Acceptance for the post graduate studies</p>
+      <p align="justify" class="style18">The university council approved by its tenth session held on the sixth of February 2005 the following :<br />
+        1- The cancellation of the sections (1-2-10) from the instructions related to the system of the academic quarters.<br />
+        2- The judgment of the eighth item of the academic system in Al-Nahrain University is applied to all university graduates starting from the year (2005-2006), which stated that (its possible for Al-Nahrain University graduates to continue their post graduate studies in their colleges with out passing through the mechanism of acceptance for these studies in case they have an average 75% or they succeeded from the first quarter and having an average higher or equal to 70% according to the capacious plan of the post graduate studies).</p>
+      <p align="justify" class="style18">Prof. Dr. Kalhid Ahmad Al-Joody<br />
+        University President</p>
+      <p align="justify" class="style18">Prof. Dr. Sa'doon Abd Al-Azeez Eesa<br />
+        University President deputy<br />
+      17/02/2005</p>
+      <p align="center" class="style18">&nbsp;</p>
+    </blockquote>
+    <p align="center"><span class="style18"><img src="images/g_29.gif" width="490" height="76" /></span></p>
+    <p>&nbsp;</p>
+    <blockquote>
+      <p align="justify" class="style18">Republic of Iraq<img src="images/sign1.gif" width="78" height="68" align="right" /><br />
+      The Presidency of Al-Nahrain University</p>
+      <p align="justify" class="style18">Ref. : GS/922<br />
+        Date : 03/10/2004</p>
+      <p align="justify" class="style21">To / All university colleges<br />
+        Subject / A message</p>
+      <p align="justify" class="style18">Al Salam Alaykoom,<br />
+        The respectable Minister directed your knowledge of the enclosed message...And its declaration is in the academic grades and in the billboards . please take what it requires.</p>
+      <p align="justify" class="style18">The message is attached.</p>
+      <p align="justify" class="style18">Prof. Dr. Kalhid Al-Joody<br />
+        The University President.</p>
+      <p align="justify"><span class="style18">Prof. Dr. Sa'doon Abd Al-Azeez Eesa<br />
+        The University President deputy.<br />
+        03/10/2004</span></p>
+      <p align="justify" class="style21">To our sons the students of universities and institutes : </p>
+      <p align="justify" class="style18"><br />
+    My dears,<br />
+    I'm pleased at the beginning of the new academic year 2004 &ndash; 2005 to talk to you as the father and the big brother that really cares about your future in life and work, that care which must direct words to your hearts before your ears, and to your consciences before your minds&hellip;You know all the circumstances of the dear home and what the Iraqi people is facing from the past tragedies, in which the responsibility of facing it is not only confines on the administrative and official commands, but you are also invited to bear a big part of this responsibility and in your educational duty frame&hellip;So the faithfulness, the persistence, following the system and the university instructions are a big indication on your belonging to your universities, your people and your country.<br />
+    The system and the organized working, the follow-up of the lessons and result is your first responsibility, while the other cares and the sectarian and doctrinal inclinations and the political subjects are all outside the walls of the university, because the university and the higher education must stay away from these subjects that separate more than unit us, and keep the higher education away from the achievement of its targets in the scientific firmness and the preparation of a generation capable of facing life by science and work&hellip;The universities and institutes are also having another responsibility of achieving the new Iraqi project of building a unified federal democratic free country, and that is achieved by the preparation of generation that believe in these principles and will to achieve it&hellip;Then we will all have the responsibility of making universities and institutes as the sanctuary of the science, the cognitive enlightenment center and the enlightenment and democratic one, away from all of the inclinations of the political and intellectual strictness in all of it's forms.</p>
+      <p align="justify" class="style18">And you also know that your professors have the right in the obedience, the respect, the appreciation and the respecting on you, and so you also have the right of care and the directing on them.</p>
+      <p align="justify" class="style18">When ever the relation between the student and his professor and between the faculty board and the students is a relation filled with respect and appreciation of the responsibility then the hope of being more close to achieve our goals in building a generation with high moral values and the firmness of a required scientism and a superior skill, to have this generation as the real building tool for the Iraq of tomorrow, the Iraq of the future and the Iraq of the Iraqis that are searching for the free and honorable life.<br />
+        I invite you my dear students to return to your academic and scientific tasks, and I will be waiting for your success, and finally God bless you all.</p>
+      <p align="justify">&nbsp;</p>
+      <p align="left" class="style21">Prof. Dr. Taher Kalaf Al-Baka'<br />
+        The minister of higher education and scientific research<br />
+      28/09/2005</p>
+      <p align="center"><br />
+      <img src="images/g_25.gif" width="340" height="27" /></p>
+      <p align="center">&nbsp;</p>
+      <p align="justify" class="style21">To all PHD students</p>
+      <p align="justify" class="style18">Al Salam Alaykoom,<br />
+  A seminar must be prepared showing the theoretical and practical stages that you have reached to, concerning your research subjects, and the extent of its conformity to the targets of the original researches, and also showing the obstacles and problems that you are facing and according to the following schedule :</p>
+      <table width="442" border="0" cellpadding="2" cellspacing="2" class="style18">
+        <tr bgcolor="#FF6600" class="style18">
+          <td width="26"><strong>No.</strong></td>
+          <td width="168"><strong>Name</strong></td>
+          <td width="142"><strong>Date</strong></td>
+          <td width="70"><strong>Hour</strong></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600"><div align="left">1</div></td>
+          <td><div align="left">Suha Hameed Nayif </div></td>
+          <td><div align="left">Monday 13/06/2005 </div></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600"><div align="left">2</div></td>
+          <td><div align="left">Mahdy Kazar Daemy </div></td>
+          <td><div align="left">Monday 13/06/2005 </div></td>
+          <td><div align="left">11:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600"><div align="left">3</div></td>
+          <td><div align="left">Mustafa Dya' Tawfeek</div></td>
+          <td><div align="left">Monday 14/06/2005 </div></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+      </table>
+      <p align="justify" class="style18">These seminars will be held at the science college hall, and if it is impossible then it will be held at the hall no.(1) building DH5.</p>
+      <p align="justify" class="style18">Notes :</p>
+      <p align="justify" class="style18">&bull; The attendance is compulsory and inevitable for all post graduate students with no exception (MSC &amp; PHD).<br />
+&bull; The attendance is compulsory for all department affiliates.<br />
+&bull; Students must tell their supervisor about the place and time of the seminar attendance, with the confirmation of their attendance and the best time of attending.</p>
+      <p align="justify" class="style18">With regards.</p>
+      <p align="justify"><span class="style18">Dr.Taha Sa'doon Bashaga<br />
+  The president of the computer science department.<br />
+      </span></p>
+      <p align="center"><img src="images/g_25.gif" width="340" height="27" /> </p>
+      <p align="center">&nbsp;</p>
+      <p align="justify" class="style21">To all MSC students (Research Stage)</p>
+      <p align="justify" class="style18">Al Salam Alaykoom,<br />
+  A seminar must be prepared showing the theoretical and practical stages that you have reached to, concerning your research subjects, and the extent of its conformity to the targets of the original researches, and also showing the obstacles and problems that you are facing and according to the following schedule :</p>
+      <table width="445" border="0" cellspacing="2" cellpadding="2">
+        <tr bgcolor="#FF6600" class="style18">
+          <td width="24"><strong>No.</strong></td>
+          <td width="179"><strong>Name</strong></td>
+          <td width="112"><strong>Date</strong></td>
+          <td width="94"><strong>Hour</strong></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">1</div></td>
+          <td><div align="left">Sarah Abas Essam </div></td>
+          <td width="112"><p align="left">Wednesday 01/06/2005</p></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">2</div></td>
+          <td><div align="left">Hayder Fat'hee Abd Al-Wahab </div></td>
+          <td width="112"><p align="left">Wednesday 01/062005</p></td>
+          <td><div align="left">10:30 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">3</div></td>
+          <td><div align="left">Etemad Raheem Ali </div></td>
+          <td width="112"><p align="left">Wednesday 01/06/2005</p></td>
+          <td><div align="left">11:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">4</div></td>
+          <td><div align="left">Mustafa Ebraheem Abid </div></td>
+          <td width="112"><p align="left">Thursday 13/06/2005 </p></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">5</div></td>
+          <td><div align="left">Tayseer Mohammad </div></td>
+          <td width="112"><p align="left">Thursday 13/06/2005 </p></td>
+          <td><div align="left">10:30 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">6</div></td>
+          <td><div align="left">Wafa' Shahab Ahmad </div></td>
+          <td width="112"><div align="left">Thursday 13/06/2005</div></td>
+          <td><div align="left">11:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">7</div></td>
+          <td><div align="left">Najmah Dera' Dahir</div></td>
+          <td width="112"><div align="left">Monday 06/06/2005 </div></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">8</div></td>
+          <td><div align="left">Hibah Mohammad Saleem </div></td>
+          <td width="112"><div align="left">Monday 06/06/2005 </div></td>
+          <td><div align="left">10:30 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">9</div></td>
+          <td><div align="left">Waseem Modafar Azeez </div></td>
+          <td width="112"><div align="left">Monday 06/06/2005 </div></td>
+          <td><div align="left">11:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">10</div></td>
+          <td><div align="left">Hayder Majeed </div></td>
+          <td width="112"><div align="left">Monday 06/06/2005 </div></td>
+          <td><div align="left">11:30 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">11</div></td>
+          <td><div align="left">Malath Sabri Kareem </div></td>
+          <td width="112"><p align="left">Tuesday 07/06/2005 </p></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">12</div></td>
+          <td><div align="left">Najwan Abid Hasan</div></td>
+          <td width="112"><div align="left">Tuesday 07/06/2005</div></td>
+          <td><div align="left">10:30 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">13</div></td>
+          <td><div align="left">Noor Ridah Abd Al-Razaq </div></td>
+          <td width="112"><div align="left">Tuesday 07/06/2005</div></td>
+          <td><div align="left">11:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">14</div></td>
+          <td><div align="left">Shayma' Mohammad Ridah </div></td>
+          <td width="112"><div align="left">Sunday 12/06/2005 </div></td>
+          <td><div align="left">10:00 am </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC" class="style18">
+          <td bgcolor="#FF6600"><div align="left">15</div></td>
+          <td><div align="left">Reem Bakir Ja'far </div></td>
+          <td width="112"><div align="left">Sunday 12/06/2005 </div></td>
+          <td><div align="left">10:30 am </div></td>
+        </tr>
+      </table>
+      <p align="justify" class="style18">These seminars will be held at the science college hall, and if it is impossible then it will be held at the hall no.(1) building DH5.</p>
+      <p align="justify" class="style18">Notes :</p>
+      <p align="justify" class="style18">&bull; The attendance is compulsory and inevitable for all post graduate students with no exception (MSC &amp; PHD).<br />
+&bull; The attendance is compulsory for all department affiliates.<br />
+&bull; Students must tell their supervisor about the place and time of the seminar attendance, with the confirmation of their attendance and the best time of attending.</p>
+      <p align="justify" class="style18">With regards.</p>
+      <p align="justify" class="style18">Dr.Taha Sa'doon Bashaga<br />
+  The president of the computer science department.</p>
+      <p align="justify" class="style18">&nbsp;</p>
+      <p align="center" class="style18"><img src="images/g_25.gif" width="340" height="27" /></p>
+      <p align="center" class="style18">&nbsp;</p>
+      <p align="justify" class="style18">To all of the listed notables, an official adhering is required including certificate, average of graduation (BSC,MSC &amp; PHD) and certificate of experience in order to compete for 2 degrees in (Doctorate) and 3 degrees as a programmer for the computer science department. During 3 days from announcement 07/06/2005.</p>
+      <p align="justify">List of names :</p>
+      <table width="442" border="0" cellpadding="2" cellspacing="2" class="style18">
+        <tr bgcolor="#FF6600">
+          <td width="29"><strong>No.</strong></td>
+          <td width="393"><strong>Name</strong></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">1</td>
+          <td><div align="left">Dosar Thabit No'man </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">2</td>
+          <td><div align="left">Hibah Zuhair Zaidan </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">3</td>
+          <td><div align="left">Abeer Kalhid Ahmad </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">4</td>
+          <td><div align="left">Hayder Jasim Mohammad </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">5</td>
+          <td><div align="left">Rasool Hisham Abd Al-Rasool </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">6</td>
+          <td><div align="left">Eehab Ahmad Mohammad </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">7</td>
+          <td><div align="left">Mustafa Diya' Tawfeek </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">8</td>
+          <td><div align="left">Teebah Zaki Abd Al-Hameed </div></td>
+        </tr>
+        <tr bgcolor="#CCCCCC">
+          <td bgcolor="#FF6600">9</td>
+          <td><div align="left">Alya' Tariq Hamoody</div></td>
+        </tr>
+      </table>
+      <p align="justify">The meeting committee. <span class="style18">07/06/2005 </span></p>
+      <p align="justify">&nbsp;</p>
+      <p align="center" class="style18"><img src="images/g_25.gif" width="340" height="27" /></p>
+      <p align="center" class="style18">&nbsp;</p>
+      <p align="justify" class="style18">Republic of Iraq<br />
+        The Presidency of Al-Nahrain University<img src="images/sign1.gif" width="78" height="68" align="right" /><br />
+      The Department of the Administrative and Legal Affairs</p>
+      <p align="justify" class="style18">Ref. : 3/1/M/514<br />
+        Date : 02/02/2005</p>
+      <p align="justify" class="style21">To / All university colleges<br />
+        Subject / Security advices</p>
+      <p align="justify" class="style18">Al Salam Alaykoom,<br />
+        We attached a copy of the Ministry of Higher Education and Scientific Research / the Legal and Administrative Headquarters message with the Ref. : 744 on 16/01/2005 that is generalized from the Ministry of Interior with the Ref. : 1351 on 17/12/2004 concerning the security recommendations for the protection of the professors of universities, the faculties and the educational staff.</p>
+      <p align="justify" class="style18">Please read it carefully and take care&hellip;with regards.</p>
+      <p align="justify" class="style18">The advice message is attached.</p>
+      <p align="justify"><span class="style18">Dr.Mohammad Jaber<br />
+        The University President assistant to the administrative affairs.<br />
+        24/01/2005<br />
+      </span>        </p>
+    </blockquote>
+    <div class="MsoNormal style18" id="text1">
+      <blockquote>
+        <p align="left">&nbsp;</p>
+        <p align="justify" class="style21">Security advices for all university and college professors and lecturers :</p>
+        <p align="justify"><strong>1. Protection against kidnapping and killing crimes :</strong></p>
+        <p align="justify"> A- look outside the house before getting out, there may be a bomb planted at the door or at the front pavement, and if you have any doubt about any undefined object then call the police immediately using one of the numbers (150 or 160) to send you a bomb expert.<br />
+  B- Pay attention to all the strangers and cars around your house before leaving for the college, and do the same when you return home, if you have any doubt then call the police.<br />
+  C- There could be somebody standing to the right or left of the house, holding a mobile to call the kidnapping group about your location and moves, so be careful.<br />
+  D- When driving a car pay attention to the following :<br />
+  1) If you have a gun then it must be ready for shooting.<br />
+  2) In case of having bodyguards, you must pull your trigger to have a bullet ready for shooting.<br />
+  3) Look to the left and right of the car, watch your back using the car's mirror, your eyes must be concentrated at the car that follow you, usually cars that are involved in these operations have no numbers, or being drove by veiled people, if you feel that you are being watched by them, in this case look at your way with out letting them notice any wrong moves from you.<br />
+  4) If you observed a car that moves beside you even when you change your direction then try to slow down to know where the car is going to, if you were the goal then immediately defend your self by shooting directly at that car, then try to find a good chance to escape, and try telling the nearest police station that you are being followed by a group of terrorists to let them open fire at the attacking car.<br />
+  5) Use only roads that many policemen exist in, and do not use the empty or open ways, also do not use roads having a high traffic jam.<br />
+  6) Try driving on the left side of the road, with the highest speed possible, to have less chance of being chased, as it will be harder to pass by you from the left.</p>
+        <p align="justify"><strong>2. Protecting transportation lines :</strong></p>
+        <p align="justify"> A- Those who have gun license they must carry their guns with them.<br />
+  B- Cars with governmental numbers must be switched with &quot;Test Numbers&quot; in order not to be observed by the terrorists.<br />
+  C- Cars are prohibited from stopping in the public places or crowd streets with out having a good reason to do so.<br />
+  D- Cars are prohibited from entering alleys as they will be easy targets for the terrorists.<br />
+  E- Arriving time must be organized for each employer so that the bus will spend less time waiting for the employer.<br />
+  F- If the bus did not arrive, then employers must separate into small groups, then each group should use public transportation buses to arrive to college.</p>
+      </blockquote>
+    </div>
+    <p>&nbsp;</p>
+    <p><img src="images/g_25.gif" width="340" height="27" /></p>
+    <p>&nbsp;</p>
+  </div>
+</div>
+<div id="Layer21" style="position:absolute; left:160px; top:1188px; width:547px; height:26px; z-index:21">
+  <blockquote class="style5">Last Updated : 11/06/2005 </blockquote>
+</div>
+<div id="Layer22" style="position:absolute; left:720px; top:4px; width:18px; height:394px; z-index:22"><img src="images/g_02.gif" width="18" height="394" /></div>
+<div id="Layer23" style="position:absolute; left:720px; top:398px; width:18px; height:545px; z-index:23"><img src="images/g_20.gif" width="18" height="550" /></div>
+<div id="Layer24" style="position:absolute; left:720px; top:943px; width:18px; height:119px; z-index:24"><a href="masterscom.htm"><img src="images/g_27.gif" width="18" height="273" border="0" /></a></div>
+<div id="Layer25" style="position:absolute; left:758px; top:13px; width:220px; height:160px; z-index:25">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="220" height="160">
+    <param name="movie" value="flashes/ad1.swf" />
+    <param name="quality" value="high" />
+    <embed src="flashes/ad1.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="160"></embed>
+  </object>
+</div>
+<div id="Layer26" style="position:absolute; left:758px; top:200px; width:203px; height:133px; z-index:26"><object classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000
+codebase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,2,0
+width=220
+height=160>
+<param name=movie value=flashes/triplezoom.swf>
+<param name=quality value=high>
+<param name=BGCOLOR value=#D95104>
+<param name=SCALE value=showall>
+<embed src=flashes/triplezoom.swf
+quality=high
+pluginspage=http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash type=application/x-shockwave-flash
+width=220
+height=160
+bgcolor=#D95104
+scale= showall>
+</embed>
+</object></div>
+<div id="Layer27" style="position:absolute; left:758px; top:387px; width:220px; height:160px; z-index:27">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="220" height="160">
+    <param name="movie" value="flashes/ad2.swf" />
+    <param name="quality" value="high" />
+    <embed src="flashes/ad2.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="220" height="160"></embed>
+  </object>
+</div>
+</body>
+</html>
